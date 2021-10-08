@@ -16,11 +16,9 @@
   --light-text-70-color: hsla(210, 46%, 95%, 0.8);
 }
 .tertiary-color {
-  color: var(--tertiary-color) !important;
+  color: var(--tertiary-color);
 }
-.secondary-color {
-  color: var(--secondary-color) !important;
-}
+
 .border-grey {
   border: 2px solid var(--secondary-color) !important;
 }
@@ -98,12 +96,12 @@ body {
   overflow: hidden;
 }
 
-.testimonial__profile > h2 {
+.testimonial__name {
   font-weight: 600;
 }
 .testimonial__profile > p {
   font-weight: 500;
-  color: var(--light-text-50-color);
+  opacity: 0.5;
 }
 
 .testimonial__content {
@@ -116,5 +114,5 @@ body {
   font-weight: 600;
 }
 .block-qoute {
-  color: var(--light-text-70-color);
+  opacity: 0.7;
 }
