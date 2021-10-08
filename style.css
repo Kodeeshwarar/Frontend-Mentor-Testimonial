@@ -64,8 +64,11 @@ body {
   background-color: var(--white-color);
 }
 .testimonial__card-1 {
-  background: var(--primary-color);
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-color: var(--primary-color);
   grid-area: one;
+  background-repeat: no-repeat;
+  background-position: right 30% top;
 }
 .testimonial__card-2 {
   background: var(--secondary-color);
